@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://images.ecestaticos.com/MUsrmUgYGUwR5M6ZyyHCDmeFRUk=/0x0:2121x1414/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd9e%2F66d%2F793%2Fd9e66d793adbc994841e60850a17e61c.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 170px;
+  }
+  
+  .alura-latam-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+  .pelis_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+  }
+  
+  div .imgxd {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  p {
+    color: #fff;
+    font-size: 1.3em;
+  }
+  input,
+  button {
+    background-color: rgba(41, 209, 41, 0.548);
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    /* Estilos para tamaños de pantalla pequeños */
+    .btnAgregar {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
